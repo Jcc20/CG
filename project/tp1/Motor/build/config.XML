@@ -1,0 +1,6 @@
+<scene>
+	<model file="caixa.3d"/>
+	<model file="esfera.3d"/>
+	<model file="plano.3d"/>
+	<model file="cone.3d"/>
+</scene>

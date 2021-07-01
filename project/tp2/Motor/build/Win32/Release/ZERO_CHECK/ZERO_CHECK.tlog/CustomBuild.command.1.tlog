@@ -1,0 +1,10 @@
+^C:\USERS\RUCA-WINDOWSX\DESKTOP\CG\TRABALHO\TP2\MOTOR\BUILD\CMAKEFILES\14F9DD37117E42C06D5C57103770FC9E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor -BC:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor/build/Motor.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

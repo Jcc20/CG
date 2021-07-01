@@ -1,0 +1,17 @@
+<scene>
+	<lights>
+		<light type="POINT" posX="-10" posY="23" posZ="-10" />
+	</lights>
+
+
+	<group> <!--Sol-->
+		<scale X="2" Y="2" Z="2"/>
+		<models>
+			<model file="3d/teapot.3d"  /> 
+		</models>
+
+
+	</group> 
+
+
+</scene>d

@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1850,5): warning : The referenced project 'C:\Users\Ruca-WindowsX\Desktop\CG\tp1\Motor\build\ZERO_CHECK.vcxproj' does not exist.
+  Building Custom Rule C:/Users/Ruca-WindowsX/Desktop/CG/tp1/Motor/CMakeLists.txt
+  CMake is re-running because C:/Users/Ruca-WindowsX/Desktop/CG/tp1/Motor/build/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/Ruca-WindowsX/Desktop/CG/tp1/Motor" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.

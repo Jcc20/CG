@@ -1,0 +1,305 @@
+<scene>
+	<lights>
+		<light type="POINT" posX="0" posY="0" posZ="0" />
+	</lights>
+
+
+	<group> <!--Sol-->
+		<scale X="2" Y="2" Z="2"/>
+		<models>
+			<model file="3d/esfera.3d" texture="texturas/sun.jpg" emiG="1.0" emiR="1.0" emiB="1.0"   />
+		</models>
+
+		<group><!--Mercurio-->
+			<scale X="0.08" Y="0.08" Z="0.08"/>
+
+			<translate time="5" >
+				<point X="4" Y="0" Z="0" />
+				<point X="2.8" Y="0" Z="-2.8" />
+				<point X="0" Y="0" Z="-4" />
+				<point X="-2.8" Y="0" Z="-2.8" />
+				<point X="-4" Y="0" Z="0" />
+				<point X="-2.8" Y="0" Z="2.8" />
+				<point X="0" Y="0" Z="4" />
+				<point X="2.8" Y="0" Z="2.8" />
+			</translate>
+
+			<rotate time="4" axisX="0" axisY="1" axisZ="0" />
+		
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/mercury.jpg" />
+			</models>
+			<!--\no moons-->
+		</group><!--\Mercurio-->
+
+		<group><!--Venus-->
+			<scale X="0.15" Y="0.15" Z="0.15"/>
+			
+			<translate time="13" >
+				<point X="7" Y="0" Z="0" />
+				<point X="4.9" Y="0" Z="-4.9" />
+				<point X="0" Y="0" Z="-7" />
+				<point X="-4.9" Y="0" Z="-4.9" />
+				<point X="-7" Y="0" Z="0" />
+				<point X="-4.9" Y="0" Z="4.9" />
+				<point X="0" Y="0" Z="7" />
+				<point X="4.9" Y="0" Z="4.9" />
+			</translate>
+			<rotate time="2" axisX="0" axisY="1" axisZ="0" />
+
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/venus.jpg" /> />
+			</models>
+			<!--\no moons-->
+		</group><!--\Venus-->
+		
+		<group><!--Terra-->
+			<scale X="0.15" Y="0.15" Z="0.15"/>
+			
+			<translate time="25" >
+				<point X="11" Y="0" Z="0" />
+				<point X="7.8" Y="0" Z="-7.8" />
+				<point X="0" Y="0" Z="-11" />
+				<point X="-7.8" Y="0" Z="-7.8" />
+				<point X="-11" Y="0" Z="0" />
+				<point X="-7.8" Y="0" Z="7.8" />
+				<point X="0" Y="0" Z="11" />
+				<point X="7.8" Y="0" Z="7.8" />
+			</translate>
+			<rotate time="3" axisX="0" axisY="1" axisZ="0" />
+
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/earth.jpg" /> />
+			</models>
+
+			<group><!--lua-->
+				<scale X="0.3" Y="0.3" Z="0.3"/>
+				<translate time="5" X="5" />
+				<rotate angle="180" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua.jpg" /> />
+				</models>
+			</group><!--\lua-->
+		</group><!--\Terra-->
+
+
+		<group><!--Marte-->
+			<scale X="0.08" Y="0.08" Z="0.08"/>
+
+			<translate time="13" >
+				<point X="15" Y="0" Z="0" />
+				<point X="10.6" Y="0" Z="-10.6" />
+				<point X="0" Y="0" Z="-15" />
+				<point X="-10.6" Y="0" Z="-10.6" />
+				<point X="-15" Y="0" Z="0" />
+				<point X="-10.6" Y="0" Z="10.6" />
+				<point X="0" Y="0" Z="15" />
+				<point X="10.6" Y="0" Z="10.6" />	
+			</translate>
+
+			<rotate time="4" axisX="0" axisY="1" axisZ="0" />
+
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/mars.jpg" /> />
+			</models>
+
+			<group><!--Phobos-->
+				<scale X="0.15" Y="0.15" Z="0.15"/>
+				<translate time="4" X="5" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua.jpg" /> />
+				</models>
+			</group><!--\Phobos-->
+			<group><!--Delmos-->
+				<scale X="0.15" Y="0.15" Z="0.15"/>
+				<translate time="12" X="7" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua3.jpg" /> />
+				</models>
+			</group><!--\delmos-->
+		</group><!--\Marte-->
+
+		<group><!--Jupiter-->
+			<scale X="0.3" Y="0.3" Z="0.3"/>
+
+			<translate time="19">
+				<point X="19" Y="0" Z="0" />
+				<point X="13.4" Y="0" Z="-13.4" />
+				<point X="0" Y="0" Z="-19" />
+				<point X="-13.4" Y="0" Z="-13.4" />
+				<point X="-19" Y="0" Z="0" />
+				<point X="-13.4" Y="0" Z="13.4" />
+				<point X="0" Y="0" Z="19" />
+				<point X="13.4" Y="0" Z="13.4" />
+			</translate>
+
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+			
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/jupiter.jpg" /> 
+			</models>
+
+			<group><!--Io-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate time="4" X="2" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua2.jpg" /> 
+				</models>
+			</group><!--\Io-->
+
+			<group><!--europa-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate time="6" X="3" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua4.jpg" /> 
+				</models>
+			</group><!--\europa-->
+
+			<group><!--Calisto-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate time="8" X="4"/>
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua3.jpg" /> 
+				</models>
+			</group><!--\Calisto-->
+
+			<group><!--Ganimede-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate time="5" X="5"/>
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua.jpg" /> />
+				</models>
+			</group><!--\Ganimede-->
+		</group><!--\Jupiter-->
+
+
+		<group><!--Saturn-->
+			<scale X="0.25" Y="0.25" Z="0.25"/>
+
+			<translate time="8">
+				<point X="22" Y="0" Z="0" />
+				<point X="15.5" Y="0" Z="-15.5" />
+				<point X="0" Y="0" Z="-22" />
+				<point X="-15.5" Y="0" Z="-15.5" />
+				<point X="-22" Y="0" Z="0" />
+				<point X="-15.5" Y="0" Z="15.5" />
+				<point X="0" Y="0" Z="22" />
+				<point X="15.5" Y="0" Z="15.5" />
+			</translate>
+
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/saturn.jpg" /> 
+			</models>
+
+			<group><!--Titan-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="3" time="8"/>
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua4.jpg" /> 
+				</models>
+			</group><!--\Tian-->
+
+			<group><!--Enceladus-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="4" time="4" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua3.jpg" /> 
+				</models>
+			</group><!--\Enceladus-->
+
+		</group><!--\Saturn-->
+
+
+		<group><!--Uranus-->
+			<scale X="0.2" Y="0.2" Z="0.2"/>
+			<translate time="15">
+				<point X="25" Y="0" Z="0" />
+				<point X="17.6" Y="0" Z="-17.6" />
+				<point X="0" Y="0" Z="-25" />
+				<point X="-17.6" Y="0" Z="-17.6" />
+				<point X="-25" Y="0" Z="0" />
+				<point X="-17.6" Y="0" Z="17.6" />
+				<point X="0" Y="0" Z="25" />
+				<point X="17.6" Y="0" Z="17.6" />
+			</translate>
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/uranus.jpg" /> />
+			</models>
+
+			<group><!--Miranda-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="3" time="6"/>
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua3.jpg" /> />
+				</models>
+			</group><!--\Miranda-->
+		</group><!--\Uranos-->
+
+		<group><!--Ñeptuno-->
+			<scale X="0.17" Y="0.17" Z="0.17"/>
+			<translate time="28">
+				<point X="28" Y="0" Z="0" />
+				<point X="19.8" Y="0" Z="-19.8" />
+				<point X="0" Y="0" Z="-28" />
+				<point X="-19.8" Y="0" Z="-19.8" />
+				<point X="-28" Y="0" Z="0" />
+				<point X="-19.8" Y="0" Z="19.8" />
+				<point X="0" Y="0" Z="28" />
+				<point X="19.8" Y="0" Z="19.8" />
+			</translate>
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="3d/esfera.3d" texture="texturas/neptune.jpg"    />
+			</models>
+
+			<group><!--triton-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="3" time="6"/>
+				<rotate angle="180" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="3d/esfera.3d" texture="texturas/lua2.jpg " />
+				</models>
+			</group><!--\triton-->
+		</group><!--\Ñeptuno-->
+
+		<group><!--Ñeptuno-->
+			<scale X="0.16" Y="0.16" Z="0.16"/>
+			<translate time="28">
+				<point X="20" Y="20" Z="0" />
+				<point X="14.4" Y="14.4" Z="-14.4" />
+				<point X="0" Y="0" Z="-20" />
+				<point X="-14.4" Y="-14.4" Z="-14.4" />
+				<point X="-20" Y="-20" Z="0" />
+				<point X="-14.4" Y="-14.4" Z="14.4" />
+				<point X="0" Y="0" Z="20" />
+				<point X="14.4" Y="14.4" Z="14.4" />
+			</translate>
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="3d/teapot.3d"    />
+			</models>
+
+		</group><!--\Ñeptuno-->
+		
+		
+
+
+
+	</group> <!--\Sol-->
+
+
+</scene>d

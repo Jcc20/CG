@@ -1,0 +1,40 @@
+﻿  Generator.cpp
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(33,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(76,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(77,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(80,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(356,26): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(370,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(372,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(374,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(383,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(383,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(396,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(397,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(398,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(399,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(490,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(490,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(495,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(495,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(495,12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(498,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(498,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(498,12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(503,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(503,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(503,14): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(507,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(507,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(507,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(507,12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(511,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(511,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(511,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Generator\Generator.cpp(511,12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  0 of 295 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Generator.vcxproj -> C:\Users\Ruca-WindowsX\Desktop\tp3\Generator\Release\Generator.exe

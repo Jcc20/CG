@@ -1,0 +1,3 @@
+C:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor/build/CMakeFiles/Motor.dir
+C:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor/build/CMakeFiles/ZERO_CHECK.dir

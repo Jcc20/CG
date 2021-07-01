@@ -1,0 +1,198 @@
+<scene>
+
+	<group> <!--Sol-->
+		<scale X="2" Y="2" Z="2"/>
+		<models>
+			<model file="esfera.3d" />
+		</models>
+
+
+		<group><!--Mercurio-->
+			<scale X="0.08" Y="0.08" Z="0.08"/>
+			<translate X="4" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+			<!--\no moons-->
+		</group><!--\Mercurio-->
+
+		<group><!--Venus-->
+			<scale X="0.15" Y="0.15" Z="0.15"/>
+			<translate X="7" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+			<!--\no moons-->
+		</group><!--\Venus-->
+
+
+		<group><!--Terra-->
+			<scale X="0.15" Y="0.15" Z="0.15"/>
+			<translate X="11" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+
+			<group><!--lua-->
+				<scale X="0.3" Y="0.3" Z="0.3"/>
+				<translate X="5" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\lua-->
+		</group><!--\Terra-->
+
+
+		<group><!--Marte-->
+			<scale X="0.08" Y="0.08" Z="0.08"/>
+			<translate X="15" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+
+			<group><!--Phobos-->
+				<scale X="0.15" Y="0.15" Z="0.15"/>
+				<translate X="5" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Phobos-->
+			<group><!--Delmos-->
+				<scale X="0.15" Y="0.15" Z="0.15"/>
+				<translate X="7" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\delmos-->
+		</group><!--\Marte-->
+
+		<group><!--Jupiter-->
+			<scale X="0.3" Y="0.3" Z="0.3"/>
+			<translate X="19" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+
+			<group><!--Io-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate X="3" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Io-->
+
+			<group><!--europa-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate X="4" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\europa-->
+
+			<group><!--Calisto-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate X="5" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Calisto-->
+
+			<group><!--Ganimede-->
+				<scale X="0.12" Y="0.12" Z="0.12"/>
+				<translate X="6x" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Ganimede-->
+		</group><!--\Jupiter-->
+
+		<group><!--Saturn-->
+			<scale X="0.25" Y="0.25" Z="0.25"/>
+			<translate X="22" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+
+			<group><!--Titan-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="3" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Tian-->
+
+			<group><!--Enceladus-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="4" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Enceladus-->
+		</group><!--\Saturn-->
+
+		<group><!--Uranus-->
+			<scale X="0.2" Y="0.2" Z="0.2"/>
+			<translate X="25" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+
+			<group><!--Miranda-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="3" />
+				<rotate angle="90" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\Miranda-->
+		</group><!--\Uranos-->
+
+		<group><!--Ñeptuno-->
+			<scale X="0.17" Y="0.17" Z="0.17"/>
+			<translate X="27" />
+			<rotate angle="0" axisX="0" axisY="0" axisZ="0" />
+		
+			<models>
+				<model file="esfera.3d" />
+			</models>
+
+			<group><!--triton-->
+				<scale X="0.09" Y="0.09" Z="0.09"/>
+				<translate X="3" />
+				<rotate angle="180" axisX="0" axisY="1" axisZ="0" />
+				<models>
+					<model file="esfera.3d" />
+				</models>
+			</group><!--\triton-->
+
+
+		</group><!--\Ñeptuno-->
+
+
+	</group> <!--\Sol-->
+
+
+</scene>d

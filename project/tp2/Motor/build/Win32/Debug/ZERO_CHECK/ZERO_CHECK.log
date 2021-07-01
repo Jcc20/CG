@@ -1,0 +1,4 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor/build/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/Ruca-WindowsX/Desktop/CG/Trabalho/tp2/Motor" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
